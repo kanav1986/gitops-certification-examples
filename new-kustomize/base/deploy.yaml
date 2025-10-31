@@ -18,9 +18,9 @@ apiVersion: apps/v1
         - name: http
           containerPort: 8080
           protocol: TCP
-          env:
-          - name: MY_MYSQL_DB
-              valueFrom:
-                configMapKeyRef:
-                  name: the-map
-                  key: mysqlDB
+        env:
+        - name: MY_MYSQL_DB
+          valueFrom:
+            configMapKeyRef:
+              name: the-map
+              key: mysqlDB
