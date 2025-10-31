@@ -1,6 +1,6 @@
-namePrefix: staging-
+namePrefix: prod-
 commonLabels:
-  variant: staging
+  variant: prod
 bases:
 - ../../base
 patchesStrategicMerge:
