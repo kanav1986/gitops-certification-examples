@@ -4,4 +4,4 @@ commonLabels:
 bases:
 - ../../base
 patchesStrategicMerge:
-- configMap.yaml
+- configmap.yaml
