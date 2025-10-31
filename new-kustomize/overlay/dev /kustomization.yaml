@@ -1,7 +1,7 @@
 namePrefix: staging-
 labels:
   variant: staging
-base:
+bases:
 - ../../base
 patches:
 - configmap.yaml
